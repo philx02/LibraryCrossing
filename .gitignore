@@ -6,3 +6,9 @@ Debug/
 *.filters
 
 *.user
+
+ExecutableConsumer/Release/
+
+LibraryFactory/Release/
+
+Release/
