@@ -1,11 +1,6 @@
 #include "MyClass.h"
 
-namespace std
-{
-
-void default_delete< MyClass >::operator()(MyClass *iToDelete)
+void std::default_delete< MyClass >::operator()(MyClass *iToDelete)
 {
   delete iToDelete;
-}
-
 }
